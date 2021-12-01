@@ -1,0 +1,20 @@
+hierarquia:
+-Organizar faculdades por ordem alfabetica
+-Organizar cursos (dentro da faculdade) por ordem alfabetica
+-Organizar alunos por nota mais alta (dentro de cada curso)
+-Colocar parametro "colocação" na class alunos
+  
+Algoritmo:
+1.Verificar em todos os cursos os colocados mais altos que têm o curso como 1 opcão
+2.Continuar a verrificação no curso ate encontrar 1 aluno que nao tenha o curso em 1 opção
+3.Executar os passos 1 a 2 para todos os cursos de todas as faculdades
+4.Executar passos de 1 a 3 repetidamente ate o numero de colocados nestes passos ser "0"
+5.Executar passos de 1 a 4 para a 2 opção repetidamente ate o numero de colocados nestes passos ser "0"
+6.Executar passos de 1 a 5 para a 3 opção repetidamente ate o numero de colocados nestes passos ser "0"
+7.Executar passos de 1 a 6 para a 4 opção repetidamente ate o numero de colocados nestes passos ser "0"
+8.Executar passos de 1 a 7 para a 5 opção repetidamente ate o numero de colocados nestes passos ser "0"
+
+Condições:
+1.Ao verificar universidades a primeira verificacao é o parametro "vagas" se "vagas" for positivo continuar a verificaçao da universidade se negativo ignorar/eleminar a universidade 
+2.Ao verificar cursos a primeira verificacao é o parametro "vagas" se "vagas" for positivo continuar a verificaçao do curso se negativo ignorar/eleminar o cursos 
+3.Ao verificar alunos a primeira verificacao é o parametro "colocação" se "colocação" for negativo continuar a verificaçao do aluno, se positivo ignorar/eleminar o aluno
